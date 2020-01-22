@@ -397,6 +397,8 @@ vendor/lib/libQSEEComAPI.so
 vendor/lib/librpmb.so
 vendor/lib/libSecureUILib.so
 vendor/lib/libssd.so
+vendor/lib/libsecureui.so
+vendor/lib/libsecureui_svcsock.so
 
 # DSP
 vendor/lib/libsdsprpc.so
