@@ -43,6 +43,9 @@ case $supplier in
 	csot)
 		insmod /vendor/lib/modules/nova_mmi.ko
 		;;
+	djn)
+		insmod /vendor/lib/modules/nova_36525_mmi.ko
+		;;
 	*)
 		notice "$supplier not supported"
 		return 1
