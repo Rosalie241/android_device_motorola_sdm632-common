@@ -426,10 +426,11 @@ PRODUCT_PACKAGES += brillo_update_payload
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service
 
+# TODO?
 # Vibrator
-PRODUCT_PACKAGES += \
-    android.hardware.vibrator@1.0-impl \
-    android.hardware.vibrator@1.0-service
+#PRODUCT_PACKAGES += \
+#    android.hardware.vibrator@1.0-impl \
+#    android.hardware.vibrator@1.0-service
 
 # Verity
 PRODUCT_SYSTEM_VERITY_PARTITION := /dev/block/platform/soc/7824900.sdhci/by-name/system
