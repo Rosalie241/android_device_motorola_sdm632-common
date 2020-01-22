@@ -55,6 +55,14 @@ vendor/lib/libqomx_jpegenc.so
 vendor/lib/libremosaic_daemon.so
 vendor/lib/libcdsprpc.so
 vendor/lib/libdepthmapwrapper.so
+vendor/bin/hw/android.hardware.camera.provider@2.4-service
+vendor/bin/hw/motorola.hardware.camera.provider@2.4-service
+vendor/etc/init/android.hardware.camera.provider@2.4-service.rc
+vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc
+vendor/lib/motorola.hardware.camera.provider@2.4_vendor.so
+vendor/lib/hw/motorola.hardware.camera.provider@2.4-impl.so
+vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so
+
 
 # Camera - Chromatix
 vendor/lib/libchromatix_mot_ov12a10_common.so
@@ -543,6 +551,9 @@ vendor/lib/libkeymasterdeviceutils.so
 vendor/lib/libkeymasterprovision.so
 vendor/lib/libkeymasterutils.so
 vendor/lib/libqtikeymaster4.so
+vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
+vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
+
 
 # Listen
 #vendor/lib/hw/sound_trigger.primary.default.so
@@ -801,4 +812,15 @@ vendor/etc/wifi/WCNSS_qcom_wlan_nv_Brazil.bin
 vendor/etc/wifi/WCNSS_qcom_wlan_nv_epa.bin
 vendor/etc/wifi/WCNSS_qcom_wlan_nv_India.bin
 vendor/etc/wifi/WCNSS_wlan_dictionary.dat
+
+# Vibrator
+vendor/lib/hw/android.hardware.vibrator@1.0-impl.so
+vendor/lib/hw/motorola.hardware.vibrator@1.0-impl.so
+vendor/lib/hw/vibrator.default.so
+vendor/bin/hw/android.hardware.vibrator@1.0-service
+vendor/bin/hw/motorola.hardware.vibrator@1.0-service
+vendor/etc/init/android.hardware.vibrator@1.0-service.rc
+vendor/etc/init/motorola.hardware.vibrator@1.0-service.rc
+vendor/lib/motorola.hardware.vibrator@1.0.so
+
 
