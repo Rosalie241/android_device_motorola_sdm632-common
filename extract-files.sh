@@ -62,7 +62,7 @@ fi
 function blob_fixup() {
     case "${1}" in
 
-    vendor/lib64/libmdmcutback.so)
+    vendor/lib64/libmdmcutback.so|vendor/lib/libmdmcutback.so)
         patchelf --add-needed libqsap_shim.so "${2}"
         ;;
 
