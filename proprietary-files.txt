@@ -407,6 +407,7 @@ vendor/lib/libSecureUILib.so
 vendor/lib/libssd.so
 vendor/lib/libsecureui.so
 vendor/lib/libsecureui_svcsock.so
+vendor/lib/libStDrvInt.so
 
 # DSP
 vendor/lib/libsdsprpc.so
