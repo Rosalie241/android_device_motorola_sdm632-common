@@ -731,6 +731,7 @@ vendor/radio/qcril_database/upgrade/5_version_qcrildb.sql
 vendor/lib/libqsocket.so
 vendor/lib/libqrtr.so
 vendor/lib/qcrild_librilutils.so
+vendor/lib/libadropbox.so
 vendor/lib/libicuuc_vendor.so
 
 # Radio - IMS
