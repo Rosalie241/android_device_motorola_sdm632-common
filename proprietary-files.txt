@@ -528,12 +528,12 @@ vendor/lib/vendor.display.postproc@1.0.so
 vendor/lib/libhdr_tm.so
 
 # Graphics (SDM) - from LA.UM.7.5.r1-03700-8x96.0
-vendor/lib/libscalar.so|cad128a6e71195b4ad38494bc0382bf80e1fb0b2
-vendor/lib/libsdm-color.so|b13ab5f965f5bb8f40207879415cb1adbb55da42
-vendor/lib/libsdm-diag.so|e2e3a0fba39190c58bafa0568e8cd51b391b71b6
--vendor/lib/libsdm-disp-vndapis.so|6c4233ea3676643bc9658c25cfad7edd45c49362
-vendor/lib/libsdmextension.so|a8659e7e0df5f1e20266ede1331da0660e0fe260
-vendor/lib/libtinyxml2_1.so|3882fddae942997be6ad6af789cf209fa45e61b3
+vendor/lib/libscalar.so
+vendor/lib/libsdm-color.so
+vendor/lib/libsdm-diag.so
+-vendor/lib/libsdm-disp-vndapis.so
+vendor/lib/libsdmextension.so
+vendor/lib/libtinyxml2_1.so
 
 # Graphics - Firmwares
 vendor/firmware/a530_gpmu.fw2
@@ -645,7 +645,7 @@ vendor/lib/libperipheral_client.so
 vendor/lib/libdisp-aba.so
 
 # QMI
-etc/permissions/qti_permissions.xml:vendor/etc/permissions/qti_permissions.xml|2826b33ed8e2756cc748c80bd6c466ff8af97ac5
+etc/permissions/qti_permissions.xml:vendor/etc/permissions/qti_permissions.xml
 etc/permissions/qti_libpermissions.xml:vendor/etc/permissions/qti_libpermissions.xml
 vendor/bin/irsc_util
 vendor/lib/libdiag.so
@@ -670,9 +670,9 @@ vendor/lib/libquipc_os_api.so
 etc/permissions/qcrilhook.xml:vendor/etc/permissions/qcrilhook.xml
 etc/permissions/telephonyservice.xml:vendor/etc/permissions/telephonyservice.xml
 framework/qcrilhook.jar:vendor/framework/qcrilhook.jar
-framework/qti-telephony-common.jar|e529711775c31da38c9ecd1ab94b27ee15570dc4
+framework/qti-telephony-common.jar
 framework/QtiTelephonyServicelibrary.jar:vendor/framework/QtiTelephonyServicelibrary.jar
--priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|d1d3adfe6eff32a3013e146317324029181e3c4a
+-priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 framework/com.qualcomm.qti.uceservice-V2.0-java.jar
 vendor/bin/ATFWD-daemon
 vendor/bin/ipacm-diag
@@ -740,7 +740,7 @@ vendor/lib/libadropbox.so
 vendor/lib/libicuuc_vendor.so
 
 # Radio - IMS
--priv-app/ims/ims.apk|b664bb413e88dbe88f49f400260f288306fc9e23
+-priv-app/ims/ims.apk
 etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml
 etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml
 etc/permissions/com.qualcomm.qti.imscmservice.xml
